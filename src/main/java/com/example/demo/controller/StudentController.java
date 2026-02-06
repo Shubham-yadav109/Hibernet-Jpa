@@ -4,11 +4,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.example.demo.tut.Student_Image;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import com.example.demo.entity.Student;
 import com.example.demo.service.StudentService;
+import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/student")
@@ -65,7 +67,4 @@ public class StudentController {
         }
         return response;
     }
-
-
-
 }
