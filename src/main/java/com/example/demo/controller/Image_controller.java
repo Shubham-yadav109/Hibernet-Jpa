@@ -35,4 +35,5 @@ public class Image_controller {
         studentImageRepository.save(student);
         return  "Image Saved Successful";
     }
+
 }

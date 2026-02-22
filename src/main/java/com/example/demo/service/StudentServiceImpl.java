@@ -2,6 +2,7 @@ package com.example.demo.service;
 
 import java.util.List;
 
+import com.example.demo.tut.Student_Image;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,7 +24,17 @@ public class StudentServiceImpl implements StudentService {
     public List<Student> getAllStudents() {
         return repo.findAll();
     }
+
     @Override
-    public List<Student> getOneStudent(){return  repo.findAll();
+    public List<Student> getOneStudent() {
+        return List.of();
     }
+
+    @Override
+    public List<Student_Image> getDataResponse() {
+        return List.of();
+    }
+//    @Override
+//    public List<Student> getOneStudent(){return  repo.findAll();
+//    }
 }
