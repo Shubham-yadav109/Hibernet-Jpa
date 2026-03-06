@@ -26,7 +26,6 @@ public class Student_Image {
         this.imageData = imageData;
     }
 
-    // getters & setters
     public int getImageId() {
         return imageId;
     }

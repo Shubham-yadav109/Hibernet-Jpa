@@ -34,7 +34,5 @@ public class StudentServiceImpl implements StudentService {
     public List<Student_Image> getDataResponse() {
         return List.of();
     }
-//    @Override
-//    public List<Student> getOneStudent(){return  repo.findAll();
-//    }
+
 }
